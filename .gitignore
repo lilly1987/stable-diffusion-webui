@@ -10,9 +10,10 @@ __pycache__
 /models/**/*
 /GFPGANv1.3.pth
 /gfpgan/weights/*.pth
-/ui-config.json
+#/ui-config.json
 /outputs
-/config.json
+/outputs2
+#/config.json
 /log
 /webui.settings.bat
 /embeddings
@@ -31,3 +32,5 @@ notification.mp3
 /extensions
 /test/stdout.txt
 /test/stderr.txt
+**/nppBackup/
+/Random.py.log
