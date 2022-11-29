@@ -60,7 +60,7 @@
     "training_image_repeats_per_epoch": 1,
     "training_write_csv_every": 500,
     "training_xattention_optimizations": false,
-    "sd_model_checkpoint": "Anything-V3.0.ckpt [6569e224]",
+    "sd_model_checkpoint": "Anything-V3.0-nsfw-prevgood_0.2.ckpt [6569e224]",
     "sd_checkpoint_cache": 1,
     "sd_vae": "Anything-V3.0.vae",
     "sd_vae_as_default": false,

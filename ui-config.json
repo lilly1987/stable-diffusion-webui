@@ -550,5 +550,7 @@
     "customscript/Random.py/txt2img/Random enabled/visible": true,
     "customscript/Random.py/txt2img/Random enabled/value": true,
     "customscript/Random.py/img2img/Random enabled/visible": true,
-    "customscript/Random.py/img2img/Random enabled/value": true
+    "customscript/Random.py/img2img/Random enabled/value": true,
+    "modelmerger/Checkpoint format/visible": true,
+    "modelmerger/Checkpoint format/value": "ckpt"
 }
