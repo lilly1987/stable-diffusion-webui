@@ -578,5 +578,7 @@
     "customscript/Random.py/txt2img/No Hypernetwork Random choices/visible": true,
     "customscript/Random.py/txt2img/No Hypernetwork Random choices/value": false,
     "customscript/Random.py/img2img/No Hypernetwork Random choices/visible": true,
-    "customscript/Random.py/img2img/No Hypernetwork Random choices/value": false
+    "customscript/Random.py/img2img/No Hypernetwork Random choices/value": false,
+    "modelmerger/Checkpoint format/visible": true,
+    "modelmerger/Checkpoint format/value": "ckpt"
 }
