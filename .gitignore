@@ -14,7 +14,7 @@ __pycache__
 #/ui-config.json
 /outputs
 /outputs2
-#/config.json
+/config.json
 /log
 /webui.settings.bat
 /embeddings
