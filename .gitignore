@@ -35,3 +35,4 @@ notification.mp3
 /test/stderr.txt
 **/nppBackup/
 /Random.py.log
+prompts.generators.randomprompt.log
