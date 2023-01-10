@@ -1,5 +1,5 @@
 {
-    "wildcard_dir": "G:\\WEBUI\\WEBUI-wildcards\\wildcards",
+    "wildcard_dir": "e:\\WEBUI-wildcards\\wildcards",
     "is_debug": true,
     "samples_save": true,
     "samples_format": "png",
@@ -60,7 +60,7 @@
     "training_image_repeats_per_epoch": 1,
     "training_write_csv_every": 500,
     "training_xattention_optimizations": false,
-    "sd_model_checkpoint": "Anything-V3.0-nsfw-prevgood_0.2.ckpt [6569e224]",
+    "sd_model_checkpoint": "Anything-V3.0-pruned-fp32.ckpt [1a7df6b8]",
     "sd_checkpoint_cache": 1,
     "sd_vae": "Anything-V3.0.vae",
     "sd_vae_as_default": false,
@@ -91,24 +91,23 @@
     "show_progressbar": false,
     "show_progress_every_n_steps": -1,
     "show_progress_grid": false,
-    "return_grid": true,
-    "do_not_show_images": false,
+    "return_grid": false,
+    "do_not_show_images": true,
     "add_model_hash_to_info": true,
     "add_model_name_to_info": true,
     "disable_weights_auto_swap": false,
     "send_seed": true,
     "font": "",
-    "js_modal_lightbox": true,
-    "js_modal_lightbox_initially_zoomed": true,
+    "js_modal_lightbox": false,
+    "js_modal_lightbox_initially_zoomed": false,
     "show_progress_in_title": false,
     "quicksettings": "sd_model_checkpoint, sd_hypernetwork, sd_hypernetwork_strength,sd_vae ",
-    "localization": "None",
+    "localization": "ko_KR",
     "hide_samplers": [
         "LMS",
         "Heun",
         "DPM2",
         "DPM2 a",
-        "DPM++ 2S a",
         "DPM fast",
         "DPM adaptive",
         "LMS Karras",
@@ -116,8 +115,8 @@
         "DPM2 a Karras",
         "DDIM",
         "PLMS",
-        "DPM++ 2S a Karras",
-        "DPM++ 2M"
+        "DPM++ 2M",
+        "DPM++ 2S a"
     ],
     "eta_ddim": 0.0,
     "eta_ancestral": 1.0,
@@ -127,7 +126,10 @@
     "s_noise": 1.0,
     "eta_noise_seed_delta": 0,
     "disabled_extensions": [
-        "AI-WEBUI-scripts-Random",
-        "sd-dynamic-prompts"
-    ]
+        "stable-diffusion-webui-wd14-tagger",
+        "tag-autocomplete"
+    ],
+    "temp_dir": "",
+    "clean_temp_dir_at_start": false,
+    "pin_memory": false
 }
